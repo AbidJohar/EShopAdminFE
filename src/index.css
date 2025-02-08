@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@500;600&family=Prata&display=swap');
+
+@import "tailwindcss";
+
+
+*{
+    font-family: Poppins;
+}
+
+select, input, textarea {
+    border: 1px solid gray;  
+    border-radius: 4px;
+    outline: none;  
+}
+
+ 
+select:focus, input:focus, textarea:focus {
+    outline: 1px solid rgb(45, 44, 44);  
+}
+
+.login{
+    font-family: Poppins;
+}
