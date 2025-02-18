@@ -140,7 +140,7 @@ const AddProduct = ({ token }) => {
       {/* Price & Category */}
       <div className="w-full max-w-[400px] flex flex-col sm:flex-row items-start gap-4">
         <div className="w-full mt-2">
-          <p className="mb-1 font-semibold">Price ($)</p>
+          <p className="mb-1 font-semibold">Price (PKR)</p>
           <input
             className="w-full max-w-[200px] py-2 px-2 border rounded"
             type="number"
